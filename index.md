@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Semantic-segmentation for off-road dataset
+This is a comparison study for semantic segmentation architectures, which is a computer vision technique, on, by layman's term, how a robot make estimation using pixels in images, conduct training and decide if the path forward can help it explore the world around. 
 
-You can use the [editor on GitHub](https://github.com/SuzanneOngCodes/Semantic-segmentation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Goals:
+- Fuel the creators' love and insights on computer & robotic vision, and how can it be implemented in robots
+- Extend the literature of semantic segmentation for recently developed techniques, networks, and dataset
+- Create introductory notebooks for code to be compiled by the public, as most relied on parallelized version where the lack of GPU access, such as NVDIA, is a setback. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Experimental setup
+Architectures tested:
+| Approach | Architecture | Optimizer |
+| ------------- | ------------- | ------------- |
+| 1 | Res 50 with parallel stacking layer (ReNext 50) + PSPNet  | Adam |
+| 2 | Res 50 with parallel stacking layer (ReNext 50) + PSPNet  | Stochastic gradient descent with momentum|
+| 3 | Res 50 + DeepLabV3  | Adam |
+| 4 | Res 50 + DeepLabV3  | Stochastic gradient descent with momentum|
+| 5 | Res 50 + Fully Convoluted Network (FCN)  | Adam |
+| 6 | Res 50 + Fully Convoluted Network (FCN)  | Stochastic gradient descent with momentum|
 
-### Markdown
+# Results
+{% include figure.html %}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+{% include figure2.html %}
 
-```markdown
-Syntax highlighted code block
+{% include figure3.html %}
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SuzanneOngCodes/Semantic-segmentation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
