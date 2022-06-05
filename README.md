@@ -24,4 +24,4 @@ Architectures tested:
 
 # Results
 - Predicted images are available in prediction directory
-
+- Interactive version: https://suzanneongcodes.github.io/Semantic-segmentation/ [In progress]
