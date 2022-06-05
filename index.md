@@ -19,14 +19,17 @@ Architectures tested:
 
 # Results
 Mean Pixel Accuracy
+
 {% include figure2.html %}
 
 {% include figure4.html %}
 
 Mean Intersection over Union
+
 {% include figure.html %}
 
 {% include figure5.html %}
 
 F1 Score
+
 {% include figure3.html %}
