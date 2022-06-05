@@ -17,16 +17,16 @@ Architectures tested:
 | 5 | Res 50 + Fully Convoluted Network (FCN)  | Adam |
 | 6 | Res 50 + Fully Convoluted Network (FCN)  | Stochastic gradient descent with momentum|
 
-## Results
-# Mean Pixel Accuracy
+# Results
+Mean Pixel Accuracy
 {% include figure2.html %}
 
 {% include figure4.html %}
 
-# Mean Intersection over Union
+Mean Intersection over Union
 {% include figure.html %}
 
 {% include figure5.html %}
 
-# F1 Score
+F1 Score
 {% include figure3.html %}
