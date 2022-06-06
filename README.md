@@ -26,7 +26,7 @@ Architectures tested:
 
 # Results
 - Predicted images are available in prediction directory
-- Here's a sneak peak on the predictions that are either partially distinguishable or the pinnacle of abstract arts, after training with 5 epochs with batch size 20:
+- Here's a sneak peak on the predictions from Adam and SGD, after training with 5 epochs with batch size 20:
 
     ![](https://github.com/SuzanneOngCodes/Semantic-segmentation/blob/344b5c45919d6767aae1221898e0f1dd864b940f/project.gif)
     
