@@ -1,6 +1,8 @@
 # Semantic-segmentation for off-road dataset
 This is a comparison study for semantic segmentation architectures, which is a computer vision technique, on, by layman's term, how a robot make estimation using pixels in images, conduct training and decide if the path forward can help it explore the world around. 
 
+Dataset: RUGD from International Conference on Intelligent Robots and Systems (IROS), raw dataset available at http://rugd.vision
+
 Goals:
 - Fuel the love and insights on computer & robotic vision, and how can it be implemented in robots
 - Extend the literature of semantic segmentation for recently developed techniques, networks, and dataset
