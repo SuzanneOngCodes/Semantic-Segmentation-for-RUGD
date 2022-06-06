@@ -28,7 +28,7 @@ Architectures tested:
 - Predicted images are available in prediction directory
 - Here's a sneak peak on the predictions that are either partially distinguishable or the pinnacle of abstract arts, after training with 5 epochs with batch size 20:
 
-    ![a file](https://github.com/SuzanneOngCodes/Semantic-segmentation/blob/2dd576f27ca671a698aec0c2966adce350b0f6c1/project.gif)
+    ![](https://github.com/SuzanneOngCodes/Semantic-segmentation/blob/2dd576f27ca671a698aec0c2966adce350b0f6c1/project.gif)
     
     <sub> 1st column, left to right: Actual footage, Ground truth, Approach 1, Approach 2<br>2nd column, left to right: Approach 3, Approach 4, Approach 5, Approach 6</sub>
 
