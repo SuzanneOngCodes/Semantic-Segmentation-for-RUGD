@@ -25,7 +25,7 @@ Architectures tested:
 | 6 | Res 50 + Fully Convoluted Network (FCN)  | Stochastic gradient descent with momentum|
 
 # Results
-- Predicted images are available in prediction directory
+- Predicted frames are available in `project.gif` as a GIF
 - Here's a sneak peak on the predictions from Adam and SGD, after training with 5 epochs with batch size 20:
 
     ![](https://github.com/SuzanneOngCodes/Semantic-segmentation/blob/344b5c45919d6767aae1221898e0f1dd864b940f/project.gif)
