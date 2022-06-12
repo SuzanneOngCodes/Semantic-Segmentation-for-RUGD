@@ -1,0 +1,10 @@
+,Name,Status,Year,Mean_IoU,Mean_Pixel_Accuracy
+0,PSP Net,Current,2016,73.22020212022387,98.79419815422283
+1,DeepLabV3,Current,2017,86.07686485641042,64.58599332282607
+2,FCN,Current,2015,97.64,61.2
+3,PSP Net (Wigness's),Wigness,2016,31.78,52.96
+4,UperNet,Wigness,2018,31.95,50.72
+5,PSP Net (Guan's),Guan,2016,67.06,92.85
+6,SegFormer,Guan,2021,86.83,95.17
+7,GANav-r8,Guan,2021,89.08,95.66
+8,FastSCNN,Guan,2019,85.11,94.77
