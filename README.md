@@ -28,7 +28,7 @@ Architectures tested:
 - Predicted frames are available in `project.gif` as a GIF
 - Here's a sneak peak on the predictions from Adam and SGD, after training with 5 epochs with batch size 20:
 
-    ![](https://github.com/SuzanneOngCodes/Semantic-segmentation/blob/344b5c45919d6767aae1221898e0f1dd864b940f/project.gif)
+    ![Please wait for a moment](https://github.com/SuzanneOngCodes/Semantic-segmentation/blob/344b5c45919d6767aae1221898e0f1dd864b940f/project.gif)
     
     <sub> 1st column, left to right: Actual footage, Ground truth, Approach 1, Approach 2<br>2nd column, left to right: Approach 3, Approach 4, Approach 5, Approach 6</sub>
 
